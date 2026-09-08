@@ -2,18 +2,18 @@
 class Shipshape < Formula
   desc "Core library for shipshape: contract normalizer, repo-fact detection, audit scoring, release engine, and the versioned p"
   homepage "https://github.com/jarimustonen/ossctl"
-  version "0.12.1"
+  version "0.12.2"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/jarimustonen/ossctl/releases/download/v0.12.1/shipshape-aarch64-apple-darwin.tar.xz"
-    sha256 "ff2abf5b5184af9dcedd0e52dc92a390614d979db7c4d41f1785db88bc8219c4"
+    url "https://github.com/jarimustonen/ossctl/releases/download/v0.12.2/shipshape-aarch64-apple-darwin.tar.xz"
+    sha256 "8e81125dd23fc70bea657238eecdf3e90118a28d17eab3a70f407d5e6fc3b2a6"
   end
   if OS.linux? && Hardware::CPU.arm?
-    url "https://github.com/jarimustonen/ossctl/releases/download/v0.12.1/shipshape-aarch64-unknown-linux-musl.tar.xz"
-    sha256 "3f7537129a866cb7f7d7f47b1ca0e067295ce7e0e610cff11c75dcc0104ddf0c"
+    url "https://github.com/jarimustonen/ossctl/releases/download/v0.12.2/shipshape-aarch64-unknown-linux-musl.tar.xz"
+    sha256 "a73ced9c240f86ffda1fa018a89610d3b690c2e6c62dad65cb8e6c062dc105af"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/jarimustonen/ossctl/releases/download/v0.12.1/shipshape-x86_64-unknown-linux-musl.tar.xz"
-    sha256 "dfe33b77300c3dd28143918b2e966a518c8468b1eef6f60f1ad91998b67dfca5"
+    url "https://github.com/jarimustonen/ossctl/releases/download/v0.12.2/shipshape-x86_64-unknown-linux-musl.tar.xz"
+    sha256 "fcde428a832ab7d28c61d28a0ce59f3fb6417fac04ff9479ada430a5da076a1f"
   end
   license "MIT"
 
